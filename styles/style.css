@@ -1,0 +1,27 @@
+header{
+    padding: 30px  214px;
+}
+.header-tittle
+{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-desc
+{
+    color: var(--gray-2, #4F4F4F);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+header img
+{
+    width: 969px;
+    height: 470px;
+    flex-shrink: 0;
+}
