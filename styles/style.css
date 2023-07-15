@@ -1,6 +1,18 @@
-header{
-    padding: 30px  214px;
+/* maltiple style */
+.section-con
+{
+    color: var(--gray-1, #333);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
 }
+
+header
+{
+    padding: 30px 214px;
+}
+
 .header-tittle
 {
     color: #000;
@@ -24,4 +36,61 @@ header img
     width: 969px;
     height: 470px;
     flex-shrink: 0;
+}
+
+/* Ingredients */
+.Ingredients
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 54px;
+}
+
+.section-tittle
+{
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Ingredients-container p
+{
+    color:#333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+span
+{
+    color: black;
+    font-weight: bolder;
+}
+
+.box
+{
+    width: 216px;
+    height: 367px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.box-1,
+.box-2,
+.box-3,
+.box-4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.box-1 i,
+.box-2 i,
+.box-3 i,
+.box-4 i{
+    margin:10px;
 }
